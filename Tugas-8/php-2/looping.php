@@ -44,14 +44,14 @@ LOOPING KEDUA
 echo "LOOPING PERTAMA <br>";
 for ($i = 1; $i <= 20; $i++) {
     if($i % 2 == 0) {
-        echo "$i - I Love PHP <br>"; 
+        echo $i . " - I Love PHP <br>"; 
     }
   }
 
 echo "LOOPING KEDUA <br>";
 for ($i = 20; $i >= 1; $i--) {
     if ($i % 2 == 0) {
-        echo "$i - I Love PHP <br>";
+        echo $i . " - I Love PHP <br>";
     }
   }
 
